@@ -1,3 +1,4 @@
+<div>
 <form class="corpo">
   <h2>lista de usuários</h2>
 
@@ -12,13 +13,13 @@
 
   <ul>
     <li class="lista" *ngFor="let usuario of usuarios">
-      {{ usuario.name | uppercase }}
+     <a routerLink=" {{ usuario.cpf }} ">    {{usuario.name}}    </a>
 
-      <button (click)="showUsuario(usuario)">detalhes <p>{{ usuarioDetails }}</p></button>
-
+      <button (click)="showUsuario(usuario)"> detalhes </button>
+      <p>{{ usuarioDetails }}</p>
       <button (click)="removeUsuario(usuario)">excluir</button>
     </li>
   </ul>
-
-  <h2></h2>
 </form>
+
+</div>

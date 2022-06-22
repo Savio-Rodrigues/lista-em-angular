@@ -1,0 +1,40 @@
+{
+    "usuarios": [
+        {
+            "name": "savio",
+            "cpf": 2423434242
+        },
+        {
+            "name": "rodrigues",
+            "cpf": 242343424002
+        },
+        {
+            "name": "gabriel",
+            "cpf": 242343424992
+        },
+        {
+            "name": "diego",
+            "cpf": 242343424288
+        },
+        {
+            "name": "elves",
+            "cpf": 242343424772
+        },
+        {
+            "name": "alcilene",
+            "cpf": 242343424552
+        },
+        {
+            "name": "esther",
+            "cpf": 24234342423
+        },
+        {
+            "name": "jaqueline",
+            "cpf": 242343424323
+        },
+        {
+            "name": "hennrique",
+            "cpf": 2423434323242
+        }
+    ]
+}
